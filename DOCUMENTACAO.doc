@@ -1,0 +1,46 @@
+DOCUMENTACAO DO PROJETO - COMPUTACAO EM NUVEM
+
+1. VISÃO GERAL
+Este projeto e um site estatico em HTML/CSS com duas paginas:
+- index.html (pagina principal)
+- pagina2.html (segunda pagina)
+
+2. ESTRUTURA DE ARQUIVOS
+- index.html: pagina inicial com introducao sobre computacao em nuvem.
+- pagina2.html: pagina secundaria com conteudo complementar.
+- DOCUMENTACAO.doc: este arquivo de documentacao.
+
+3. NAVEGACAO ENTRE PAGINAS
+- Na pagina principal (index.html), o botao "Abrir Segunda Pagina" leva para pagina2.html.
+- Na segunda pagina (pagina2.html), o botao "Voltar para a Pagina Principal" leva para index.html.
+- Ambas as paginas possuem menu suspenso no topo com links de navegacao.
+
+4. MENU SUSPENSO
+O menu suspenso aparece no topo das duas paginas e inclui:
+- Sobre
+- Contato
+- Servicos
+- Link para a outra pagina (Segunda Pagina ou Pagina Principal)
+
+5. ERRO COMUM E COMO CORRIGIR
+Erro comum: link com nome de arquivo incorreto, por exemplo:
+- href="pagina22.html"
+
+Esse erro faz o navegador abrir uma pagina inexistente.
+
+Correcao:
+- Trocar para o nome correto do arquivo:
+  href="pagina2.html"
+
+6. COMO EXECUTAR O PROJETO
+Opcao 1:
+- Abrir o arquivo index.html diretamente no navegador.
+
+Opcao 2:
+- Usar uma extensao de servidor local (ex.: Live Server) no VS Code/Cursor.
+
+7. OBSERVACOES
+- Os links internos do menu usam IDs na propria pagina (#sobre, #contato, #servicos).
+- Se um ID for alterado no HTML, o href do menu deve ser atualizado para manter a navegacao funcionando.
+
+Fim da documentacao.
